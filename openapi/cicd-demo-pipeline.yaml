@@ -27,7 +27,7 @@ objects:
     strategy:
       type: JenkinsPipeline
       jenkinsPipelineStrategy:
-        jenkinsfilePath: cicd/Jenkinsfile
+        jenkinsfilePath: openapi/Jenkinsfile
         env:
         - name: GIT_BRANCH
           value: ${GIT_BRANCH}
