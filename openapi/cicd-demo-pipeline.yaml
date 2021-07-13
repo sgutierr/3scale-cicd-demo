@@ -113,12 +113,6 @@ parameters:
 - name: TEST_STAGING_PUBLIC_BASE_URL
   value: 'https://payment-ser-test-staging.apps.my-cluster.ocp4.openshift.es'
   required: true  
-- name: PROD_PRODUCTION_PUBLIC_BASE_URL
-  value: 'https://payment-ser-prod-production.apps.my-cluster.ocp4.openshift.es'
-  required: true
-- name: PROD_STAGING_PUBLIC_BASE_URL
-  value: 'https://payment-ser-prod-staging.apps.my-cluster.ocp4.openshift.es'
-  required: true
 - name: API_BASE_SYSTEM_NAME
   value: payment_api
   required: true
@@ -128,23 +122,16 @@ parameters:
 - name: TEST_PROJECT
   required: true
   value: TEST
-- name: PROD_PROJECT
-  required: true
-  value: PROD
 - name: IMAGE_NAMESPACE
   required: true
-  value: appdev-devops
 - name: SECRET_NAME
   value: 3scale-toolbox
   required: true  
 - name: TARGET_INSTANCE_DEV
-  value: ocp4demo
+  value: quitaladev
   required: true  
 - name: TARGET_INSTANCE_TEST
-  value: test
-  required: true
-- name: TARGET_INSTANCE_PROD
-  value: hetzner
+  value: quitalatest
   required: true
 - name: DEV_DEVELOPER_ACCOUNT_ID
   required: true
@@ -152,16 +139,13 @@ parameters:
 - name: TEST_DEVELOPER_ACCOUNT_ID
   required: true
   value: "2445581796198"  
-- name: PROD_DEVELOPER_ACCOUNT_ID
-  required: true
-  value: "54"
 - name: DISABLE_TLS_VALIDATION
   value: "yes"
 - name: APPLICATION_NAME
   value: "openbanking-api"
   required: true
 - name: OPENAPI_SPECIFICATION_FILE
-  required: true
+  required: false
 - name: TOOLBOX_IMAGE_REGISTRY
   required: true
   value: "quay.io/redhat/3scale-toolbox:latest"
