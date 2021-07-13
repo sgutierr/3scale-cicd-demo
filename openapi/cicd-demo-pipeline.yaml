@@ -168,3 +168,6 @@ parameters:
 - name: ENDPOINT2TEST
   required: true
   value: "/api/health"  
+- name: PRODUCT_FILE
+  required: false
+    
