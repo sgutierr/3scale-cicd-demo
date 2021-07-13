@@ -1,5 +1,5 @@
 
-# How to run this 3scale CI/CD example:
+# How to run this 3scale CI/CD demo:
 
 After creating an OpenShift namespace with deploying Jenkins in it, copy your local 3scale toolbox file: 3scalerc.yaml as a secret: 
 
