@@ -18,8 +18,10 @@ The demo requires these components:
 
 ## Install demo
 There are two use cases according the sort of file that we will use as a point of truth:
-- [x] **Use case 1:** an OpenAPI 3 or a Swagger file, please check directory "/openapi" and this [Installation guide](openapi/README.md)
-- [x] **Use case 2:** an API Product yaml file, please check directory "/apiproduct" and this [Installation guide](apiproduct/README.md). 
+- [x] **Use case 1:** an OpenAPI 3 or a Swagger file, please check directory "/openapi"  
+- [x] **Use case 2:** an API Product yaml file, please check directory "/apiproduct"  
+
+Please check this guide: [Installation guide](Installation.md)
 
 ## Components demo flow
 Find in this diagram the API lifecycle automation sequence flow 
